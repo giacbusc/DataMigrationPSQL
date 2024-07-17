@@ -119,7 +119,7 @@ Fatto questo è possibile visualizzare la homepage del progetto di migrazione da
 
 ### 4) Inizio migrazione dati
 Aperto il browser cliccare quindi `Avvia la Migrazione dei Dati` e attendere il caricamento della pagina che fornirà il riscontro dell'operazione.
-Per avere un maggiore riscontro è possibile visualizzare che i dati siano stati inseriti in modo corretto dall'interfaccia pgAdmin 
+Per avere un maggiore riscontro è possibile visualizzare che i dati siano stati inseriti in modo corretto dall'interfaccia pgAdmin scaricabile online
 
 
 
