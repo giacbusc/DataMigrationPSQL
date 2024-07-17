@@ -99,7 +99,8 @@ Il file visualizzato nel video si chiama `simple.war`, nel nostro caso il file s
 Si consiglia di utilizzare la versione `apache-tomcat-9.0.30` in quanto è quella con cui il progetto è stato testato. <br>
 Fatto questo è possibile visualizzare la homepage del progetto di migrazione dati tramite il seguente link [http://localhost:8080/datamigration_v1/](http://localhost:8080/datamigration_v1/)
 
-#### Per sistema operativo Windows:
+#### Metodo alternativo
+##### Per sistema operativo Windows:
 Aprire il terminale nella directory `bin` dei file di installazione di tomcat ed eseguire il comando 
 ```
 ./startup.bat
@@ -108,7 +109,7 @@ Caricare il file `datamigration_v1.war` che si trova all'interno della repositor
 **IL FILE NON DEVE ESSERE ESTRATTO**, tomcat penserà a tutto in maniera automatica<br>
 Fatto questo è possibile visualizzare la homepage del progetto di migrazione dati tramite il seguente link [http://localhost:8080/datamigration_v1/](http://localhost:8080/datamigration_v1/)
 
-#### Per sistema operativo Unix-like:
+##### Per sistema operativo Unix-like:
 Aprire il terminale nella directory `bin` dei file di installazione di tomcat ed eseguire il comando 
 ```
 ./startup.sh
