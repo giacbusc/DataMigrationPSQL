@@ -21,13 +21,25 @@ Non sono stati svolti test con altre versioni. In caso di problematiche con qual
 #### Per sistema operativo Windows:
 Nella repository si trova il file `setup_win_db.ps1`. <br>
 Aprire come **amministratore** la PowerShell di windows nella stessa directory dove è stato installato il file `.ps1`.
-Fatto questo eseguire il comando `.\setup_windows_db.ps1`.<br>
+Fatto questo eseguire il comando
+```
+.\setup_windows_db.ps1
+```
 Verrà richiesto poi di inserire la password (creata in fase di installazione di postgresql) dell'utente di default `postgres` (nel nostro caso `admin`)
 
 #### Per sistema operativo Unix-like:
 Nella repository si trova il file `setup_unix_db.sh`.
 Aprire il terminale nella stessa directory di dove è stato installato il file `.sh`.
-Fatto questo eseguire il comando `chmod +x setup_unix_db.sh` e dopodiche eseguire `./setup_unix_db.sh`.<br><br>
+Fatto questo eseguire i seguenti comandi
+```
+chmod +x setup_unix_db.sh
+```
+```
+./setup_unix_db.sh`
+```
+Verrà richiesto poi di inserire la password (creata in fase di installazione di postgresql) dell'utente di default `postgres` (nel nostro caso `admin`)
+
+<br><br><br>
 
 Se dovessero esserci problemi questo è dovuto alla mancanza di postgreSQL nel sistema per eseguire comandi da linea di comando, verificare quindi la corretta installazione lanciando il comando `psql --version`. <br>
 Se questo non è presente si rimanda ad una [guida esterna](https://sqlbackupandftp.com/blog/setting-windows-path-for-postgres-tools/) per il corretto proseguimento nell'installazione<br>
