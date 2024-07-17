@@ -39,7 +39,7 @@ chmod +x setup_unix_db.sh
 ```
 Verrà richiesto poi di inserire la password (creata in fase di installazione di postgresql) dell'utente di default `postgres` (nel nostro caso `admin`)
 
-<br><br><br>
+<br><br>
 
 Se dovessero esserci problemi questo è dovuto alla mancanza di postgreSQL nel sistema per eseguire comandi da linea di comando, verificare quindi la corretta installazione lanciando il comando `psql --version`. <br>
 Se questo non è presente si rimanda ad una [guida esterna](https://sqlbackupandftp.com/blog/setting-windows-path-for-postgres-tools/) per il corretto proseguimento nell'installazione<br>
