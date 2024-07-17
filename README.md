@@ -3,11 +3,13 @@ Servizio di migrazione dati da un database MySQL gestito tramite phpmyadmin vers
 
 ## Prerequisiti
 E' necessario avere installato sulla propria macchina
-- PostgreSQL (version 16)
-- Django (version 5.0+)
-- Python (version 3.0+)
-- Tomcat (version 9.0+)
-- VScode (version 1.87)
+- PostgreSQL (version **16.x**)
+- Django (version **5.x+**)
+- Python (version **3.x+**)
+- Tomcat (version **9.x+**)
+
+Opzionale (ma fortemente consigliato)
+- VScode (version **1.8x**)
 
 Si noti che le versioni indicate sono quelle testate per cui l'applicativo lavora correttamente. 
 Non sono stati svolti test con altre versioni. In caso di problematiche con qualche versione specifica si prega di aprire un issue e segnalare il problema
@@ -75,19 +77,26 @@ _Avviato il server proseguire quindi al punto 3_
 
 #### 3.1) Avvio di tomcat
 
-#### Metodo consigliato
+#### Metodo consigliato (per evitare problemi con versioni di tomcat)
 Se si ha già installato vscode sulla propria macchina si consiglia di utilizzare l'estensione **_"Community Server Connector"_**. 
 Per una maggiore completezza si rimanda a un video tutorial per la sua corretta installazione e esecuzione del progetto.<br>
 Il file visualizzato nel video si chiama `simple.war`, nel nostro caso il file si chiama `datamigration01.war`. 
-Si consiglia di utilizzare la versione `apache-tomcat-9.0.30` in quanto è quella con cui il progetto è stato testato.
+Si consiglia di utilizzare la versione `apache-tomcat-9.0.30` in quanto è quella con cui il progetto è stato testato. <br>
+Fatto questo è possibile visualizzare la homepage del progetto di migrazione dati tramite il seguente link [http://localhost:8080/datamigration1.0/](http://localhost:8080/datamigration-1.0-SNAPSHOT/)
 
 #### Per sistema operativo Windows:
-Aprire il terminale nella directory `bin` dei file di installazione di tomcat ed eseguire il comando `./startup.bat`.
+Aprire il terminale nella directory `bin` dei file di installazione di tomcat ed eseguire il comando `./startup.bat`. <br>
 Caricare il file `datamigration01.war` che si trova all'interno della repository nella cartella webapp. <br>
-IL FILE NON DEVE ESSERE ESTRATTO, tomcat penserà a tutto in maniera automatica
+**IL FILE NON DEVE ESSERE ESTRATTO**, tomcat penserà a tutto in maniera automatica<br>
+Fatto questo è possibile visualizzare la homepage del progetto di migrazione dati tramite il seguente link [http://localhost:8080/datamigration1.0/](http://localhost:8080/datamigration-1.0-SNAPSHOT/)
 
-#### Per sistema operativo
-Aprire il terminale nella directory `bin` dei file di installazione di tomcat ed eseguire il comando `./startup.sh`.
+#### Per sistema operativo Unix-like:
+Aprire il terminale nella directory `bin` dei file di installazione di tomcat ed eseguire il comando `./startup.sh`. <br>
+Caricare quindi il file `datamigration01.war` che si trova all'interno della repository nella cartella webapp. <br>
+**IL FILE NON DEVE ESSERE ESTRATTO**, tomcat penserà a tutto in maniera automatica<br>
+Fatto questo è possibile visualizzare la homepage del progetto di migrazione dati tramite il seguente link [http://localhost:8080/datamigration1.0/](http://localhost:8080/datamigration-1.0-SNAPSHOT/)
+
+
 
 
 
