@@ -89,7 +89,7 @@ _Avviato il server proseguire quindi al punto 3_
 
 #### 3.1) Avvio di tomcat
 
-#### Metodo consigliato (per evitare problemi con versioni di tomcat)
+#### <ins>Metodo consigliato</ins> (per evitare problemi con versioni di tomcat)
 Se si ha già installato vscode sulla propria macchina si consiglia di utilizzare l'estensione **_"Community Server Connector"_**. 
 Si consiglia di seguire il video qui sotto per una corretta installazione e esecuzione del progetto.<br>
 
@@ -99,7 +99,7 @@ Il file visualizzato nel video si chiama `simple.war`, nel nostro caso il file s
 Si consiglia di utilizzare la versione `apache-tomcat-9.0.30` in quanto è quella con cui il progetto è stato testato. <br>
 Fatto questo è possibile visualizzare la homepage del progetto di migrazione dati tramite il seguente link [http://localhost:8080/datamigration_v1/](http://localhost:8080/datamigration_v1/)
 
-#### Metodo alternativo
+#### <ins>Metodo alternativo</ins>
 ##### Per sistema operativo Windows:
 Aprire il terminale nella directory `bin` dei file di installazione di tomcat ed eseguire il comando 
 ```
