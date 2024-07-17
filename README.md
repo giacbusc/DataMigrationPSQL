@@ -58,7 +58,6 @@ python manage.py makemigrations data_migration
 python manage.py migrate data_migration
 ```
 
-
 I problemi che si possono verificare in questa fase possono derivare dall'assenza di python3 (o python) come comando riconosciuto dal terminale.
 Si chiede quindi di verificare l'installazione seguendo questa [guida esterna](https://phoenixnap.com/kb/how-to-install-python-3-windows)<br>
 Se python risulta già installato sulla macchina ma comunque i comandi non vengono riconosciuti seguire la guida esterna qui sopra dal *punto 4)* in avanti.
