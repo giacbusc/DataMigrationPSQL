@@ -10,6 +10,7 @@ E' necessario avere installato sulla propria macchina
 
 Opzionale (ma fortemente consigliato)
 - VScode (version **1.8x**)
+- pgAdmin (version **4x**)
 
 Si noti che le versioni indicate sono quelle testate per cui l'applicativo lavora correttamente. 
 Non sono stati svolti test con altre versioni. In caso di problematiche con qualche versione specifica si prega di aprire un issue e segnalare il problema
@@ -118,7 +119,7 @@ Fatto questo è possibile visualizzare la homepage del progetto di migrazione da
 
 ### 4) Inizio migrazione dati
 Aperto il browser cliccare quindi `Avvia la Migrazione dei Dati` e attendere il caricamento della pagina che fornirà il riscontro dell'operazione.
-
+Per avere un maggiore riscontro è possibile visualizzare che i dati siano stati inseriti in modo corretto dall'interfaccia pgAdmin 
 
 
 
