@@ -43,12 +43,16 @@ Eseguire quindi i comandi nel seguente ordine:
 
 ```
 python3 manage.py makemigrations data_migration
+```
+```
 python3 manage.py migrate data_migration
 ```
 Se la <ins>versione di python è inferiore alla 3.0<ins> lanciare i seguenti comandi invece:
 
 ```
 python manage.py makemigrations data_migration
+```
+```
 python manage.py migrate data_migration
 ```
 
