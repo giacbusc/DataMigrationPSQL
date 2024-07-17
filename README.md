@@ -80,6 +80,7 @@ _Avviato il server proseguire quindi al punto 3_
 #### Metodo consigliato (per evitare problemi con versioni di tomcat)
 Se si ha già installato vscode sulla propria macchina si consiglia di utilizzare l'estensione **_"Community Server Connector"_**. 
 Per una maggiore completezza si rimanda a un video tutorial per la sua corretta installazione e esecuzione del progetto.<br>
+[![Guarda il video](https://raw.githubusercontent.com/giacbusc/DataMigrationPSQL/main/miniatura.jpg)](https://raw.githubusercontent.com/giacbusc/rDataMigrationPSQL/main/community_server_connectors.mp4)
 Il file visualizzato nel video si chiama `simple.war`, nel nostro caso il file si chiama `datamigration01.war`. 
 Si consiglia di utilizzare la versione `apache-tomcat-9.0.30` in quanto è quella con cui il progetto è stato testato. <br>
 Fatto questo è possibile visualizzare la homepage del progetto di migrazione dati tramite il seguente link [http://localhost:8080/datamigration1.0/](http://localhost:8080/datamigration-1.0-SNAPSHOT/)
