@@ -78,7 +78,7 @@ _Avviato il server proseguire quindi al punto 3_
 
 #### Metodo consigliato (per evitare problemi con versioni di tomcat)
 Se si ha già installato vscode sulla propria macchina si consiglia di utilizzare l'estensione **_"Community Server Connector"_**. 
-Per una maggiore completezza si rimanda a un video tutorial per la sua corretta installazione e esecuzione del progetto.<br>
+Si consiglia di seguire il video qui sotto per una corretta installazione e esecuzione del progetto.<br>
 
 https://github.com/user-attachments/assets/1278ce0c-2c5f-427c-801a-cca396b62c06
 
