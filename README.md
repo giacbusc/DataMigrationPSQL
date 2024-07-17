@@ -13,7 +13,7 @@ Si noti che le versioni indicate sono quelle testate per cui l'applicativo lavor
 Non sono stati svolti test con altre versioni. In caso di problematiche con qualche versione specifica si prega di aprire un issue e segnalare il problema
 
 
-## Guida all'installazione
+## Guida all'installazione e all'esecuzione del progetto
 
 ### 1) Creazione del database PostgreSQL
 #### Per sistema operativo Windows:
@@ -47,7 +47,7 @@ python3 manage.py makemigrations data_migration
 ```
 python3 manage.py migrate data_migration
 ```
-Se la <ins>versione di python è inferiore alla 3.0<ins> lanciare i seguenti comandi invece:
+Se la <ins>versione di python è inferiore alla 3.0</ins> lanciare i seguenti comandi invece:
 
 ```
 python manage.py makemigrations data_migration
@@ -66,6 +66,28 @@ Per avviare quindi il server django che procederà a caricare i dati su postgreS
 ```
 python3 manage.py runserver
 ```
+Questo comando avvia un server django all'indirizzo `http://127.0.0.1:8000` (indirizzo di default, esso non è stato modificato nelle impostazioni pertanto se si è deciso di modificarlo in fase di installazione di django è bene fare attenzione e riportarlo alle impostazioni di default) <br>
+Si noti che è stata la <ins>versione 5.x di Django</ins>. Versioni precedenti non sono state testate
+Se il server non viene avviato correttamente controllare verificare che django sia correttamente installato.<br>
+_Avviato il server proseguire quindi al punto 3_
 
-### 3) Avvio del server tomcat
+### 3) Esecuzione della servlet
+
+#### 3.1) Avvio di tomcat
+
+#### Metodo consigliato
+Se si ha già installato vscode sulla propria macchina si consiglia di utilizzare l'estensione **_"Community Server Connector"_**. 
+Per una maggiore completezza si rimanda a un video tutorial per la sua corretta installazione e esecuzione del progetto.<br>
+Il file visualizzato nel video si chiama `simple.war`, nel nostro caso il file si chiama `datamigration01.war`. 
+Si consiglia di utilizzare la versione `apache-tomcat-9.0.30` in quanto è quella con cui il progetto è stato testato.
+
+#### Per sistema operativo Windows:
+Aprire il terminale nella directory `bin` dei file di installazione di tomcat ed eseguire il comando `./startup.bat`.
+Caricare il file `datamigration01.war` che si trova all'interno della repository nella cartella webapp. <br>
+IL FILE NON DEVE ESSERE ESTRATTO, tomcat penserà a tutto in maniera automatica
+
+#### Per sistema operativo
+Aprire il terminale nella directory `bin` dei file di installazione di tomcat ed eseguire il comando `./startup.sh`.
+
+
 
