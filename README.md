@@ -26,7 +26,7 @@ Fatto questo eseguire il comando
 ```
 .\setup_windows_db.ps1
 ```
-Verrà richiesto poi di inserire la password (creata in fase di installazione di postgresql) dell'utente di default `postgres` (nel nostro caso `admin`)
+Verrà richiesto **3 VOLTE** di inserire la password (creata in fase di installazione di postgresql) dell'utente di default `postgres` (nel nostro caso `admin`)
 
 #### Per sistema operativo Unix-like:
 Nella repository si trova il file `setup_unix_db.sh`.
@@ -43,7 +43,7 @@ Verrà richiesto **3 VOLTE** di inserire la password (creata in fase di installa
 <br><br>
 
 Se dovessero esserci problemi questo è dovuto alla mancanza di postgreSQL nel sistema per eseguire comandi da linea di comando, verificare quindi la corretta installazione lanciando il comando `psql --version`. <br>
-Se questo non è presente si rimanda ad una [guida esterna](https://sqlbackupandftp.com/blog/setting-windows-path-for-postgres-tools/) per il corretto proseguimento nell'installazione<br>
+Se questo non è presente si rimanda ad una guida esterna ([windows](https://sqlbackupandftp.com/blog/setting-windows-path-for-postgres-tools/) oppure [unix-like](https://phoenixnap.com/kb/install-python-mac))  (per il corretto proseguimento nell'installazione<br>
 (Si noti che è possibile anche procedere alla creazione manuale del database ma per rendere il tutto più automatizzato è stato creato questo script in modo da ovviare a svariati problemi)
 
 ### 2) Scaricare il file local_service.zip
