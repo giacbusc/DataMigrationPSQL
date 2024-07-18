@@ -105,8 +105,8 @@ Si consiglia di utilizzare la versione `apache-tomcat-9.0.30` in quanto è quell
 https://github.com/user-attachments/assets/1278ce0c-2c5f-427c-801a-cca396b62c06
 
 Fatto questo è possibile visualizzare la homepage del progetto di migrazione dati tramite il seguente link [http://localhost:8080/datamigration_v1/](http://localhost:8080/datamigration_v1/)
-**NOTA**
-Con una versione diversa dalla 9.0.x il progetto ha dato problemi su un sistema operativo unix-like. Si consiglia pertanto di rispettare le versioni indicate
+> **NOTA**
+> Con una versione diversa dalla 9.0.x il progetto ha dato problemi su un sistema operativo unix-like. Si consiglia pertanto di rispettare le versioni indicate
 
 #### <ins>Metodo alternativo</ins>
 ##### Per sistema operativo <ins>Windows</ins>:
