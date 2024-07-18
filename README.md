@@ -74,7 +74,7 @@ python manage.py migrate data_migration
 I problemi che si possono verificare in questa fase possono derivare:
 1. Assenza di python3 (o python) come comando riconosciuto dal terminale. Si chiede quindi di verificare l'installazione seguendo questa guida esterna per [windows](https://phoenixnap.com/kb/how-to-install-python-3-windows) oppure [unix-like](https://phoenixnap.com/kb/install-python-mac)<br>
 Se python risulta già installato sulla macchina ma comunque i comandi non vengono riconosciuti seguire la guida esterna qui sopra dal *punto 4)* in avanti.
-2. Error loading psycopg2 or psycopg module. Per risolvere questo problema è necessario lanciare i comandi
+2. "_Error loading psycopg2 or psycopg module_". Per risolvere questo problema è necessario lanciare i comandi
    ```pip3 install psycopg2``` e 
    ```pip3 install psycopg2-binary```
 
