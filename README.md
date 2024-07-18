@@ -82,7 +82,7 @@ python3 manage.py runserver
 ```
 Questo comando avvia un server django all'indirizzo `http://127.0.0.1:8000` (indirizzo di default, esso non è stato modificato nelle impostazioni pertanto se si è deciso di modificarlo in fase di installazione di django è bene fare attenzione e riportarlo alle impostazioni di default) <br>
 Si noti che è stata la <ins>versione 5.x di Django</ins>. Versioni precedenti non sono state testate
-Se il server non viene avviato correttamente controllare verificare che django sia correttamente installato.<br>
+Se il server non viene avviato correttamente verificare che django sia correttamente installato sulla macchina.<br>
 _Avviato il server proseguire quindi al punto 3_
 
 ### 3) Esecuzione della servlet
@@ -100,7 +100,7 @@ Si consiglia di utilizzare la versione `apache-tomcat-9.0.30` in quanto è quell
 Fatto questo è possibile visualizzare la homepage del progetto di migrazione dati tramite il seguente link [http://localhost:8080/datamigration_v1/](http://localhost:8080/datamigration_v1/)
 
 #### <ins>Metodo alternativo</ins>
-##### Per sistema operativo Windows:
+##### Per sistema operativo <ins>Windows</ins>:
 Aprire il terminale nella directory `bin` dei file di installazione di tomcat ed eseguire il comando 
 ```
 ./startup.bat
@@ -109,7 +109,7 @@ Caricare il file `datamigration_v1.war` che si trova all'interno della repositor
 **IL FILE NON DEVE ESSERE ESTRATTO**, tomcat penserà a tutto in maniera automatica<br>
 Fatto questo è possibile visualizzare la homepage del progetto di migrazione dati tramite il seguente link [http://localhost:8080/datamigration_v1/](http://localhost:8080/datamigration_v1/)
 
-##### Per sistema operativo Unix-like:
+##### Per sistema operativo <ins>Unix-like</ins>:
 Aprire il terminale nella directory `bin` dei file di installazione di tomcat ed eseguire il comando 
 ```
 ./startup.sh
