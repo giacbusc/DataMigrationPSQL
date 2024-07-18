@@ -38,7 +38,7 @@ chmod +x setup_unix_db.sh
 ```
 ./setup_unix_db.sh
 ```
-Verrà richiesto poi di inserire la password (creata in fase di installazione di postgresql) dell'utente di default `postgres` (nel nostro caso `admin`)
+Verrà richiesto **3 VOLTE** di inserire la password (creata in fase di installazione di postgresql) dell'utente di default `postgres` (nel nostro caso `admin`)
 
 <br><br>
 
