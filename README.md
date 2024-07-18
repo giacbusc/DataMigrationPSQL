@@ -89,7 +89,8 @@ Se il server non viene avviato correttamente verificare che django sia correttam
 _Avviato il server proseguire quindi al punto 3_
 
 **NOTA**<br>
-Potrebbe essere segnalato un warning di migrazioni non completate, non è necessario procedere a eseguire il comando segnalato dal warning in quanto creerebbe altre tabelle a noi superflue in postgresql.
+Potrebbe essere segnalato un warning di migrazioni non completate, non è necessario procedere a eseguire il comando segnalato dal warning in quanto creerebbe altre tabelle a noi superflue in postgresql. <br>
+**Non chiudere il terminale**, stiamo eseguendo un server django, se viene chiuso verrà chiuso di conseguenza anche il server
 
 ### 3) Esecuzione della servlet
 
