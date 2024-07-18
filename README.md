@@ -88,9 +88,9 @@ Si noti che è stata la <ins>versione 5.x di Django</ins>. Versioni precedenti n
 Se il server non viene avviato correttamente verificare che django sia correttamente installato sulla macchina.<br>
 _Avviato il server proseguire quindi al punto 3_
 
-**NOTA**<br>
-Potrebbe essere segnalato un warning di migrazioni non completate, non è necessario procedere a eseguire il comando segnalato dal warning in quanto creerebbe altre tabelle a noi superflue in postgresql. <br>
-**Non chiudere il terminale**, stiamo eseguendo un server django, se viene chiuso verrà chiuso di conseguenza anche il server
+> **NOTA**<br>
+> Potrebbe essere segnalato un warning di migrazioni non completate, non è necessario procedere a eseguire il comando segnalato dal warning in quanto creerebbe altre tabelle a noi superflue in postgresql. <br>
+> **Non chiudere il terminale**, stiamo eseguendo un server django, se viene chiuso verrà chiuso di conseguenza anche il server
 
 ### 3) Esecuzione della servlet
 
