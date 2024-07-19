@@ -24,7 +24,7 @@ Nella repository si trova il file `setup_win_db.ps1`. <br>
 Aprire come **amministratore** la PowerShell di windows nella stessa directory dove è stato installato il file `.ps1`.
 Fatto questo eseguire il comando
 ```
-.\setup_windows_db.ps1
+.\setup_win_db.ps1
 ```
 Verrà richiesto **3 VOLTE** di inserire la password (creata in fase di installazione di postgresql) dell'utente di default `postgres` (nel nostro caso `admin`)
 
