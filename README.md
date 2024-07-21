@@ -84,7 +84,7 @@ python3 manage.py runserver
 ```
 Se la <ins>versione di python è inferiore alla 3.0</ins> lanciare il seguente comando invece:
 ```
-python3 manage.py runserver
+python manage.py runserver
 ```
 Questo comando avvia un server django all'indirizzo `http://127.0.0.1:8000` (indirizzo di default, esso non è stato modificato nelle impostazioni pertanto se si è deciso di modificarlo in fase di installazione di django è bene fare attenzione e riportarlo alle impostazioni di default) <br>
 Si noti che è stata la <ins>versione 5.x di Django</ins>. Versioni precedenti non sono state testate
