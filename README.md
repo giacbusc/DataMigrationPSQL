@@ -26,7 +26,7 @@ Fatto questo eseguire il comando
 ```
 .\setup_win_db.ps1
 ```
-Verrà richiesto **3 VOLTE** di inserire la password (creata in fase di installazione di postgresql) dell'utente di default `postgres` (nel nostro caso `admin`)
+Verrà richiesto **4 VOLTE** di inserire la password (creata in fase di installazione di postgresql) dell'utente di default `postgres` (nel nostro caso `admin`)
 
 #### Per sistema operativo Unix-like:
 Nella repository si trova il file `setup_unix_db.sh`.
