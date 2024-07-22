@@ -104,12 +104,13 @@ Se si ha già installato vscode sulla propria macchina si consiglia di utilizzar
 Si consiglia di seguire il video qui sotto per una corretta installazione e esecuzione del progetto.<br>
 Il file visualizzato nel video si chiama `simple.war`, nel nostro caso il file si chiama `datamigration_v1.war`. 
 Si consiglia di utilizzare la versione `apache-tomcat-9.0.30` in quanto è quella con cui il progetto è stato testato. <br>
+> **NOTA**
+> Con una versione diversa dalla 9.0.x il progetto potrebbe generare problemi nella fase di migrazione. Si consiglia pertanto di rispettare la versione di tomcat indicata
 
 https://github.com/user-attachments/assets/1278ce0c-2c5f-427c-801a-cca396b62c06
 
 Fatto questo è possibile visualizzare la homepage del progetto di migrazione dati tramite il seguente link [http://localhost:8080/datamigration_v1/](http://localhost:8080/datamigration_v1/)
-> **NOTA**
-> Con una versione diversa dalla 9.0.x il progetto potrebbe generare problemi nella fase di migrazione con sistema unix-like. Si consiglia pertanto di rispettare le versioni indicate
+
 
 #### <ins>Metodo alternativo</ins>
 ##### Per sistema operativo <ins>Windows</ins>:
